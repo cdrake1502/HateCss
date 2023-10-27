@@ -1,0 +1,34 @@
+
+body{
+    background-color:aquamarine;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%; /* Add this line to make the div take up the full width of its container */
+    height: 100%; /* Add this line to make the div take up the full height of its container */
+   
+}
+   
+   .banner span,
+   .banner button {
+    margin: 0 5px;
+   }
+#message
+{
+    color:aquamarine;
+    text-size-adjust: 14pt;
+}
+
+
+
+
+
+
+
+  

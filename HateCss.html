@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" media="all">
+</head>
+<body>
+    <div class="banner">
+        <span class="msg-span">
+            <p id="message">I hate CSS Bro, if you want to find out why.  </p>
+        </span>
+        <button id="Hate-btn">
+           click me 
+        </button>
+    </div>
+
+    <script>
+    var flag = true;
+       document.getElementById('Hate-btn').addEventListener('click', function() {
+        if (flag){
+         document.getElementById('message').innerHTML = ' More text has been added.';
+        }else {
+         document.getElementById('message').innerHTML = 'I hate CSS Bro, if you want to find out why. ';
+        }
+        flag = !flag;// this changes the flag to the opposite value 
+        });
+    </script>
+
+
+    
+</body>
+</html>
